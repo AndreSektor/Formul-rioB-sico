@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form fieldset{
+    padding: 20px 40px;
+    border: solid black;
+}
+
+form legend{
+    text-align: left;
+    font-size: 17px;
+    color: gray;
+}
+
+form input[type=text]{
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border: 1px solid gray;
+}
+
+form select{
+    width:calc(80% + 28px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid gray;
+    color: gray;
+}
+
+form h2{
+    margin-top: 20px;
+    color: gray;
+}
+
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: gray;
+}
+
+form textarea{
+    margin-top: 30px;
+    height: 140px;
+    width: 80%;
+    padding: 10px 13px;
+    resize: none;
+    border: 1px solid gray;
+}
+
+form input[type=submit]{
+    margin-top: 30px;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid rgb(36, 34, 34);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    background-color: gray;
+}
+
+
